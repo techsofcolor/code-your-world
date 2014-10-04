@@ -15,6 +15,7 @@
 	<link href="css/styles.css" rel="stylesheet">
 	<link href="css/custom-responsive.css" rel="stylesheet">
 	<link href="css/normalize.css" rel="stylesheet">
+    <link href="css/thermometer.css" rel="stylesheet">
 	<!-- END CSS / STYLES -->
 
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
@@ -22,7 +23,8 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <!-- FAVICON -->
+
+      <!-- FAVICON -->
     <link rel="shortcut icon" href="favicon.png">
     <!-- END FAVICON -->
   </head>
@@ -48,7 +50,7 @@
 			    <li><a class="smoothScroll" href="#home">Home</a></li>
                 <li><a class="smoothScroll" href="#about">About</a></li>
                 <li><a class="smoothScroll" href="#register">Register</a></li>
-			    <!--<li><a class="smoothScroll" href="#sponsors">Sponsors</a></li>-->
+			    <li><a class="smoothScroll" href="#donate">Donate</a></li>
 			    <!--<li><a class="smoothScroll" href="#features">Features</a></li>-->
 			    <li><a class="smoothScroll" href="#team">Our Team</a></li>
 			    <!--<li><a href="#myModal" data-toggle="modal">Contact</a></li>-->
@@ -124,7 +126,7 @@
 	  <!-- ABOUT TEXT WITH ICON / IMAGE -->
 	  <div class="container second">
 		<div class="row">
-            <div class="span12 ">
+            <div class="span12 cbp-so-side-right">
                 <p>Technologists of Color is a group committed to building the African American tech community in Atlanta.
                     Our primary goal is to connect tech professionals so that they can share knowledge, resources and
                     opportunities. We also strive to inform and educate the community to help increase African American
@@ -164,45 +166,6 @@
 	</section>
 	<!-- END ABOUT SECTION -->
 
-    <!-- REGISTER SECTION -->
-    <!--<section id="register">-->
-
-        <!--&lt;!&ndash; TOP REGISTER TEXT &ndash;&gt;-->
-        <!--<div class="container first">-->
-            <!--<div class="row">-->
-                <!--<div class="span12">-->
-                    <!--<h2 class="featurette-heading">How To Register</h2>-->
-                    <!--&lt;!&ndash;<p class="muted">Write our simple marketing, informational text about the website or anything here.</p>&ndash;&gt;-->
-                <!--</div>-->
-            <!--</div>-->
-        <!--</div>-->
-        <!--&lt;!&ndash; END TOP REGISTER TEXT &ndash;&gt;-->
-
-        <!--&lt;!&ndash; HOW TO REGISTER TEXT &ndash;&gt;-->
-        <!--<div class="container second">-->
-            <!--<div class="row">-->
-                <!--<div class="span10 offset1">-->
-                    <!--Sessions 1 and 2 are full, and we have a long waiting list. However, students can still be added to the waiting list for Session 3 of GGC Tech Camp:-->
-
-                    <!--Complete online form: HERE-->
-                    <!--Do not send any money or other information. We will contact you if a spot becomes available.-->
-                    <!--If you have been asked to provide a report card:-->
-
-                    <!--Email copy of latest Student Report Card (or screenshot from Parent Portal is fine) to TechCampAdmin@lists.ggc.edu-->
-                    <!--If you need to complete payment for camp, we are no longer accepting payments through the mail. Instead, online payments should be made through Square.-->
-
-                    <!--If you have already paid the $35 registration fee and been accepted, here is the link to pay $190 program fee: https://squareup.com/market/georgia-gwinnett-college-foundation-inc/tech-camp-payment-program-fee-->
-                    <!--If you have been accepted and need to pay the full $225 for camp, here is the appropriate link:? http://mkt.com/georgia-gwinnett-college-foundation-inc/tech-camp-->
-                    <!--Thank you for considering GGC Tech Camp!-->
-
-                <!--</div>-->
-            <!--</div>-->
-            <!--<hr>-->
-        <!--</div>-->
-    <!--</section>-->
-    <!-- END REGISTER SECTION -->
-
-
 	<!-- FEATURES SECTION -->
 	<section id="register">
 	  <div id="cbp-so-scroller" class="cbp-so-scroller">
@@ -214,9 +177,9 @@
 			<h2 class="featurette-heading">The Internet of Things...<br/><span class="muted">Is the next BIG thing.</span></h2>
 			<p class="muted">From automatically turning on and off lights to detecting temperature changes students will
                 create projects using the Arduino prototyping kit that will demonstrate the basics of electronics programming
-                and introduce the "IoT" concept.  Space is limted so, register your middle-schooler now! </p>
+                and introduce the "IoT" concept.  It's free and space is limted so, register your middle-schooler now! </p>
 			<br>
-			<a class="btn btn-danger btn-large">Register Now</a>
+			<a class="btn btn-danger btn-large" href="" >Register Now</a>
 		  </article>
 		  <!-- END LEFT FEATURES TEXT -->
 
@@ -229,17 +192,31 @@
 		<!-- END LEFT FEATURES -->
 
 		<!-- RIGHT FEATURES -->
-		<!--<section class="cbp-so-section">-->
-		  <!--&lt;!&ndash; RIGHT FEATURES IMAGE &ndash;&gt;-->
-		  <!--<figure class="cbp-so-side cbp-so-side-left">-->
+		<section id="donate" class="cbp-so-section">
+            <hr>
+		  <!-- RIGHT FEATURES IMAGE -->
+		  <figure class="cbp-so-side cbp-so-side-left">
 			<!--<img src="img/layout/550x600.gif" alt="img01">-->
-		  <!--</figure>-->
-		  <!--&lt;!&ndash; END RIGHT FEATURES IMAGE &ndash;&gt;-->
+            <div id="content">
+              <div id="thermometer">
+                  <div class="track">
+                      <div class="goal">
+                          <div class="amount">800</div>
+                      </div>
+                      <div class="therm-progress">
+                          <div class="amount">20</div>
+                      </div>
+                  </div>
+              </div>
+            </div>
+		  </figure>
+		  <!-- END RIGHT FEATURES IMAGE -->
 
-		  <!--&lt;!&ndash; RIGHT FEATURES TEXT &ndash;&gt;-->
-		  <!--<article class="cbp-so-side cbp-so-side-right">-->
-			<!--<h2 class="featurette-heading">Oh yeah, it's that good. <span class="muted">See for yourself.</span></h2>-->
-			<!--<p class="muted">Cras gravida sit amet nibh libero nulla. An dulla vel metus scelerisque. Tellus ac cursus commodo vel metus</p>-->
+		  <!-- RIGHT FEATURES TEXT -->
+		  <article class="cbp-so-side cbp-so-side-right">
+			<h2 class="featurette-heading">We need your help!! <span class="muted">Donate Today!</span></h2>
+			<p class="muted">This is a free workshop for students organized and facilitated by volunteers.  We need $800 to cover the cover the cost
+            of the class.  Help us improve diversity in technology.  Donate Now!</p>
 			<!--<ul class="icons-ul big-li muted">-->
 	 		  <!--<li><i class="icon-ok"></i>Donec id elit non mi porta</li>-->
 			  <!--<li><i class="icon-ok"></i>At eget metus fusce dapibus</li>-->
@@ -247,23 +224,32 @@
 			  <!--<li><i class="icon-ok"></i>Porta gravida panes no</li>-->
 			<!--</ul>-->
 			<!--<br>-->
-			<!--<div class="btn-buy pull-left">-->
-			  <!--<a class="btn btn-primary"><img src="img/button/1.png" alt="button1"></a>-->
-			  <!--<a class="btn btn-success"><img src="img/button/2.png" alt="button2"></a>-->
-			<!--</div>-->
-		  <!--</article>-->
-		  <!--&lt;!&ndash; END RIGHT FEATURES TEXT &ndash;&gt;-->
-		<!--</section>-->
+              <div class="btn-buy pull-left">
+              <a class="btn btn-danger btn-large" href="javascript:$('#donatePPForm').submit();" >Donate</a>
+              <!--<form id="donatePPForm" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">-->
+                  <!--<input type="hidden" name="cmd" value="_s-xclick">-->
+                  <!--<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">-->
+                  <!--&lt;!&ndash;<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">&ndash;&gt;-->
+                  <!--&lt;!&ndash;<img  alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">&ndash;&gt;-->
+              <!--</form>-->
+                <!--<a class="btn btn-danger btn-large" href="" >Register Now</a>-->
+			  <!--&lt;!&ndash;<a class="btn btn-primary"><img src="img/button/1.png" alt="button1"></a>&ndash;&gt;-->
+			  <!--&lt;!&ndash;<a class="btn btn-success"><img src="img/button/2.png" alt="button2"></a>&ndash;&gt;-->
+			</div>
+		  </article>
+		  <!-- END RIGHT FEATURES TEXT -->
+		</section>
 		<!-- END RIGHT FEATURES -->
+
 	  </div>
 
-	  <!--&lt;!&ndash; ADDITIONAL FEATURES &ndash;&gt;-->
-	  <!--<div class="container additional-features"> -->
+	  <!-- ADDITIONAL FEATURES -->
+	  <!--<div class="container additional-features">-->
 		<!--<div class="container-narrow">-->
 		  <!--<div class="row-fluid marketing">-->
-		  <!---->
+
 			<!--<div class="span4">-->
-				<!---->
+
 		      <!--<div class="media">-->
 				<!--<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9b pull-left">-->
 				  <!--<a href="#set-9" class="hi-icon hi-icon-mobile">Icon</a>-->
@@ -283,11 +269,11 @@
 				  <!--<p>Cras gravida sit amet nibh libero nulla. An dulla vel metus scelerisque</p>-->
 			    <!--</div>-->
 			  <!--</div>-->
-					<!---->
+
 			<!--</div>-->
 
 			<!--<div class="span4">-->
-				<!---->
+
 			  <!--<div class="media">-->
 				<!--<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9b pull-left">-->
 				  <!--<a href="#set-9" class="hi-icon hi-icon-user">Icon</a>-->
@@ -307,11 +293,11 @@
 				  <!--<p>Gravida nulla cras sit amet nibh libero. Pulla vel metus scelerisque</p>-->
 				<!--</div>-->
 			  <!--</div>-->
-					<!---->
+
 			<!--</div>-->
-				<!---->
+
 			<!--<div class="span4">-->
-				<!---->
+
 			  <!--<div class="media">-->
 			    <!--<div class="hi-icon-wrap hi-icon-effect-9 hi-icon-effect-9b pull-left">-->
 			 	  <!--<a href="#set-9" class="hi-icon hi-icon-list">Icon</a>-->
@@ -331,14 +317,14 @@
 				  <!--<p>Cras sit amet metus scelerisque nibh libero. In gravida on nulla vel nulla</p>-->
 				<!--</div>-->
 			  <!--</div>-->
-					<!---->
+
 			<!--</div>-->
-				<!---->
+
 		  <!--</div>-->
 		<!--</div>-->
 	  <!--</div>-->
-	  <!--&lt;!&ndash; END ADDITIONAL FEATURES &ndash;&gt;-->
-	  <!---->
+	  <!-- END ADDITIONAL FEATURES -->
+
 	</section>
 	<!-- END FEATURES SECTION -->
 	
@@ -463,6 +449,10 @@
 	</div>
 	<!-- END CONTACT MODAL -->
 
+
+
+
+
     <!-- JAVASCRIPT -->
     <!-- Placed at the end of the document so the pages load faster -->
 	<script src="js/jquery.js"></script>
@@ -475,8 +465,10 @@
 	<script src="js/cbpScroller.js"></script>
 	<script src="js/smoothscroll.js"></script>
 	<script src="js/jquery.cbpQTRotator.min.js"></script>
-	
-	<!-- CUSTOM JAVASCRIPT -->
+    <script type='text/javascript' src='js/thermometer.js'></script>
+
+
+    <!-- CUSTOM JAVASCRIPT -->
 	<script type="text/javascript">
 	  new cbpScroller( document.getElementById( 'cbp-so-scroller' ) );
 	</script>
@@ -501,7 +493,15 @@
 			$( selector ).cbpQTRotator( 'destroy' );
 			*/
 
-		$( '#cbp-qtrotator' ).cbpQTRotator();
+		$( '#cbp-qtrotator' ).cbpQTRotator(			{
+                    // default transition speed (ms)
+                    speed : 700,
+                    // default transition easing
+                    easing : 'ease',
+                    // rotator interval (ms)
+                    interval : 4000
+                }
+        );
 
 	  } );
 	</script>		

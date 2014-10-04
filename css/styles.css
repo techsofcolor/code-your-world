@@ -653,6 +653,12 @@ ul.big-li > li i {
 	padding-top: 10px;
 }
 
+#donateBtn {
+    width: 200px;
+    float: right;
+    margin-top: -170px;
+}
+
 /* 8. CONTACT MODAL
 ==============================================*/
 
