@@ -668,3 +668,6 @@ ul.big-li > li i {
 
 
 
+img.no-margin {
+    margin-top :0px !important;
+}
