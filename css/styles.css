@@ -92,8 +92,9 @@ h1,h2,h3,h4 {
 
 #home {
 	padding-top: 60px;
-	background: url("../img/bg.png") top center no-repeat;
+	/*background: url("../img/bg.png") top center no-repeat;*/
 	background-attachment: fixed;
+    background-color: #00aeef;
 }
 
 #home .top-image img{
@@ -158,6 +159,10 @@ h1,h2,h3,h4 {
 
 p.small-text {
 	font-size: 14px;
+}
+
+.navbar-inner {
+    opacity: 1;
 }
 
 /* 4. ABOUT SECTION
@@ -374,7 +379,8 @@ p.small-text {
 	text-align: center;
 	position: relative;
 	z-index: 1;
-	color: #00D8CC;
+	/*color: #00D8CC;*/
+    color: #00aeef;
 }
 
 .hi-icon:after {
@@ -496,14 +502,16 @@ p.small-text {
 	top: 0;
 	left: 0;
 	padding: 0;
-	box-shadow: 0 0 0 2px #00D8CC;
+	/*box-shadow: 0 0 0 2px #00D8CC;*/
+    box-shadow: 0 0 0 2px #00AEEF;
 	-webkit-transition: -webkit-transform 0.2s, opacity 0.2s;
 	-moz-transition: -moz-transform 0.2s, opacity 0.2s;
 	transition: transform 0.2s, opacity 0.2s;
 }
 
 .no-touch .hi-icon-effect-9b .hi-icon:hover:after {
-	color: #00D8CC;
+	/*color: #00D8CC;*/
+    color: #00AEEF;
 	-webkit-transform: scale(0.90);
 	-moz-transform: scale(0.90);
 	-ms-transform: scale(0.90);
@@ -511,7 +519,8 @@ p.small-text {
 }
 
 .no-touch .hi-icon-effect-9b .hi-icon:hover {
-	color: #00D8CC;
+	/*color: #00D8CC;*/
+    color: #00AEEF;
 }
 
 /* 6. TEAM SECTION
@@ -520,7 +529,8 @@ p.small-text {
 #team {
 	padding-right: 10px;
 	padding-left: 10px;
-	background: #00D8CC;
+    /*background: #00D8CC;*/
+    background: #00aeef;
 }
 
 .cbp-qtrotator {
@@ -609,7 +619,8 @@ ul.big-li > li {
 }
 
 ul.big-li > li i {
-	color: #00D8CC;
+	/*color: #00D8CC;*/
+    color: #00AEEF;
 	padding-right: 20px;
 }
 
@@ -626,8 +637,10 @@ ul.big-li > li i {
 
 #curveUpColor path,
 #curveDownColor path {
-	stroke: #00D8CC;
-	fill: #00D8CC;
+	/*stroke: #00D8CC;*/
+	/*fill: #00D8CC;*/
+    stroke: #00aeef;
+    fill: #00aeef;
 }
 
 /* 7. FOOTER SECTION

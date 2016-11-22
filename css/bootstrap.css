@@ -211,7 +211,8 @@ a {
 }
 a:hover,
 a:focus {
-  color: #00D8CC;
+  /*color: #00D8CC;*/
+  color: #00AEEF;
   text-decoration: none;
 }
 .img-polaroid {
@@ -5230,8 +5231,10 @@ input[type="submit"].btn.btn-mini {
 }
 .navbar .nav > li > a:focus,
 .navbar .nav > li > a:hover {
-  background-color: #00D8CC;
-  color: #333333;
+  /*background-color: #00D8CC;*/
+  background-color: #00AEEF;
+  /*color: #333333;*/
+  color: #ffffff;
   text-decoration: none;
 }
 .navbar .nav > .active > a,
@@ -5239,7 +5242,8 @@ input[type="submit"].btn.btn-mini {
 .navbar .nav > .active > a:focus {
   color: #333333;
   text-decoration: none;
-  background-color: #00D8CC;
+  /*background-color: #00D8CC;*/
+  background-color: #00AEEF;
 }
 .navbar .btn-navbar {
   display: none;
